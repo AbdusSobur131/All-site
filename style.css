@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg,yellow,red);
+    color: blueviolet;
+    height: 600px;
+}
+.main h1{
+    font-size: 50px;
+    font-family: serif;
+    margin: 20px;
+}
+.main h2{
+    margin-bottom: 50px;
+    color: white;
+}
+
+.web{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+
+.web >div{
+    height: 200px;
+    background-image: linear-gradient(45deg,red,yellow);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
